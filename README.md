@@ -1,2 +1,4 @@
 # personal-website
-A showcase of my skills, projects, and passions.
+
+> Hi there! This repository contains the source code for my personal website. You can find it at [andre-j3sus.github.io](https://andre-j3sus.github.io).
+
