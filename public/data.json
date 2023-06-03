@@ -1,0 +1,273 @@
+{
+  "settings": {
+    "isSplash": false
+  },
+  "seo": {
+    "title": "André's Website",
+    "description": "Computer Science & Engineering Student.",
+    "og": {
+      "title": "André Jesus Website",
+      "type": "website",
+      "url": "https://andre-j3sus.github.io"
+    }
+  },
+  "greeting": {
+    "title": "André Jesus",
+    "logo_name": "AndreJesus",
+    "nickname": "Hey there 👋, my friends call me Jesus!",
+    "subTitle": "Computer Science & Engineering Student",
+    "resumeLink": "https://www.canva.com/design/DAFUaHsRNDo/OUWh8boNosWQ3YeIp0tI6A/view?utm_content=DAFUaHsRNDo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
+    "portfolio_repository": "https://github.com/andre-j3sus/andre-j3sus-website",
+    "githubProfile": "https://github.com/andre-j3sus"
+  },
+  "socialMediaLinks": [
+    {
+      "name": "Github",
+      "link": "https://github.com/andre-j3sus",
+      "fontAwesomeIcon": "fa-github",
+      "backgroundColor": "#181717"
+    },
+    {
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/andre-jesus-engineering",
+      "fontAwesomeIcon": "fa-linkedin",
+      "backgroundColor": "#0077B5"
+    },
+    {
+      "name": "YouTube",
+      "link": "https://www.youtube.com/@andre-j3sus",
+      "fontAwesomeIcon": "fa-youtube",
+      "backgroundColor": "#FF0000"
+    },
+    {
+      "name": "Gmail",
+      "link": "mailto:andre.jesus.pilar@gmail.com",
+      "fontAwesomeIcon": "fa-google",
+      "backgroundColor": "#D14836"
+    },
+    {
+      "name": "Twitter",
+      "link": "https://twitter.com/andre_j3sus",
+      "fontAwesomeIcon": "fa-twitter",
+      "backgroundColor": "#1DA1F2"
+    },
+    {
+      "name": "Instagram",
+      "link": "https://www.instagram.com/andre.j3sus",
+      "fontAwesomeIcon": "fa-instagram",
+      "backgroundColor": "#E4405F"
+    },
+    {
+      "name": "Stack Overflow",
+      "link": "https://stackoverflow.com/users/15545640/andr%c3%a9-jesus",
+      "fontAwesomeIcon": "fa-stack-overflow",
+      "backgroundColor": "#F48024"
+    },
+    {
+      "name": "Goodreads",
+      "link": "https://www.goodreads.com/user/show/108854374-andr-jesus",
+      "fontAwesomeIcon": "fa-goodreads",
+      "backgroundColor": "#553B08"
+    }
+  ],
+  "skills": {
+    "data": [
+      {
+        "title": "Full Stack Development",
+        "fileName": "FullStackImg",
+        "skills": [
+          "⚡ Developing RESTful APIs using Node, Express & Spring",
+          "⚡ Building responsive website front end using React, Bootstrap & Material-UI",
+          "⚡ Developing mobile applications using Android, Jetpack Compose & Kotlin"
+        ],
+        "softwareSkills": [
+          {
+            "skillName": "HTML5",
+            "fontAwesome": "fa-html5",
+            "style": {
+              "color": "#E34F26"
+            }
+          },
+          {
+            "skillName": "CSS3",
+            "fontAwesome": "fa-css3",
+            "style": {
+              "color": "#1572B6"
+            }
+          },
+          {
+            "skillName": "JavaScript",
+            "fontAwesome": "fa-js",
+            "style": {
+              "backgroundColor": "#000000",
+              "color": "#F7DF1E"
+            }
+          },
+          {
+            "skillName": "TypeScript",
+            "fontAwesome": "fa-js",
+            "style": {
+              "color": "#3178C6"
+            }
+          },
+          {
+            "skillName": "NodeJS",
+            "fontAwesomeClassname": "simple-icons:node-dot-js",
+            "style": {
+              "color": "#339933"
+            }
+          },
+          {
+            "skillName": "Express",
+            "fontAwesomeClassname": "simple-icons:express",
+            "style": {
+              "color": "#000000"
+            }
+          },
+          {
+            "skillName": "ReactJS",
+            "fontAwesomeClassname": "simple-icons:react",
+            "style": {
+              "color": "#61DAFB"
+            }
+          },
+          {
+            "skillName": "Material-UI",
+            "fontAwesomeClassname": "simple-icons:material-ui",
+            "style": {
+              "color": "#0081CB"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Machine Learning",
+        "fileName": "MachineLearningImg",
+        "skills": [
+          "⚡ Understanding and implementing various machine learning algorithms",
+          "⚡ Experience with libraries like TensorFlow and PyTorch",
+          "⚡ Deep learning models for computer vision and natural language processing"
+        ],
+        "softwareSkills": [
+          {
+            "skillName": "Python",
+            "fontAwesome": "fa-python"
+          },
+          {
+            "skillName": "TensorFlow",
+            "fontAwesome": "fa-tensorflow"
+          },
+          {
+            "skillName": "PyTorch",
+            "fontAwesome": "fa-torch"
+          }
+        ]
+      },
+      {
+        "title": "Database",
+        "fileName": "DatabaseImg",
+        "skills": [
+          "⚡ Designing and maintaining relational databases",
+          "⚡ Working with MySQL, PostgreSQL, and MongoDB",
+          "⚡ Writing efficient SQL queries"
+        ],
+        "softwareSkills": [
+          {
+            "skillName": "MySQL",
+            "fontAwesome": "fa-database"
+          },
+          {
+            "skillName": "PostgreSQL",
+            "fontAwesome": "fa-database"
+          },
+          {
+            "skillName": "MongoDB",
+            "fontAwesome": "fa-database"
+          }
+        ]
+      }
+    ]
+  },
+  "degrees": [
+    {
+      "title": "Instituto Superior de Engenharia de Lisboa",
+      "subtitle": "BSc. in Computer Science and Engineering",
+      "logo_path": "isel_logo.png",
+      "duration": "2020 - Present",
+      "descriptions": [
+        "⚡ I have studied basic software engineering subjects like Programming, Algorithms and Data Structures, OOP, Web Development, Databases, Computer Networks, Operating Systems, etc.",
+        "⚡ Apart from this, I were the student representative between 2022 and 2023, where I represented the students of my course in the pedagogical council of the school.",
+        "⚡ I received two merit scholarships for my academic excellence, one when I entered the school (2020) and another one in 2022."
+      ],
+      "website_link": "https://www.isel.pt/en"
+    }
+  ],
+  "experience": {
+    "title": "Experience",
+    "subtitle": "Work, Internship and Volunteership",
+    "description": "",
+    "header_image_path": "experience.svg",
+    "sections": [
+      {
+        "title": "Work",
+        "experiences": [
+          {
+            "title": "Monitor",
+            "company": "Instituto Superior de Engenharia de Lisboa",
+            "company_url": "https://www.isel.pt/en",
+            "logo_path": "isel_logo.png",
+            "duration": "November 2022 - PRESENT",
+            "location": "Lisbon, Portugal",
+            "description": "I am responsible for the support of the students of the Introduction to Internet Programming and Software Laboratory subjects. I also help the students with the development of the projects of the subjects and to better understand the concepts of the subjects.",
+            "color": "#0879bf"
+          },
+          {
+            "title": "Mathematics Tutor",
+            "company": "Apto — Apoio Pedagógico Total, Lda.",
+            "company_url": "https://www.apto.pt/",
+            "logo_path": "apto_logo.jpg",
+            "duration": "September 2022 - PRESENT",
+            "location": "Lisbon, Portugal",
+            "description": "I am responsible for the support of the students of the Mathematics subjects.",
+            "color": "#9b1578"
+          }
+        ]
+      },
+      {
+        "title": "Internships",
+        "experiences": []
+      },
+      {
+        "title": "Volunteerships",
+        "experiences": []
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "My projects make use of vast variety of latest technology tools. My best experience is to create Web Applications and deploy them to web services. Below are some of my projects, to see more projects visit my github.",
+    "avatar_image_path": "projects_image.svg",
+    "projects": [
+      {
+        "title": "Project 1",
+        "subtitle": "Project 1",
+        "description": "Project 1",
+        "project_url": ""
+      }
+    ]
+  },
+  "publications": {
+    "title": "Publications",
+    "subtitle": "My Research Papers",
+    "description": "",
+    "avatar_image_path": "publications_image.svg",
+    "publications": [
+      {
+        "title": "Publication title",
+        "subtitle": "Publication subtitle",
+        "description": "Publication description",
+        "publication_url": ""
+      }
+    ]
+  }
+}
