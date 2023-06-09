@@ -144,10 +144,10 @@ const theme = createTheme({
         },
         divider: '#E6E8F0',
         primary: {
-            main: '#277BC0',
-            light: '#FFB200',
-            dark: '#FFCB42',
-            contrastText: '#FFFFFF'
+            main: '#0e3569',
+            light: '#dbe1eb',
+            dark: '#efefef',
+            contrastText: '#ffffff'
         },
         secondary: {
             main: '#10B981',

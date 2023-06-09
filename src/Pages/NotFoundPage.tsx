@@ -5,7 +5,7 @@ import HomeIcon from "@mui/icons-material/Home"
 import {useNavigate} from "react-router-dom"
 import {WebUiUris} from "./WebUiUris"
 import Box from "@mui/material/Box"
-import Logo from "../Assets/logo.png"
+//import Logo from "../Assets/logo.png"
 
 /**
  * Page not found component.
@@ -49,7 +49,7 @@ export function NotFoundPage() {
                     Go to Home
                 </Button>
             </Box>
-            <Box
+            {/*<Box
                 sx={{
                     display: "flex",
                     flexDirection: "column",
@@ -59,7 +59,7 @@ export function NotFoundPage() {
                 }}
             >
                 <img src={Logo} alt="Logo" width="40%"/>
-            </Box>
+            </Box>*/}
         </Box>
     )
 }

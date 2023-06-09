@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
-import {data} from "./data.json";
 import Typography from "@mui/material/Typography";
+import data from "../../Services/data.json";
 
 export default function Footer() {
     return (
@@ -13,7 +13,7 @@ export default function Footer() {
                 className="footer-text"
                 gutterBottom
             >
-                Made with <span role="img">❤️</span> by {data.title}
+                Made with <span role="img">❤️</span> by {data.name}
             </Typography>
         </div>
     )
