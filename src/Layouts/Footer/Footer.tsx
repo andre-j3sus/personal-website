@@ -3,6 +3,9 @@ import "./Footer.css";
 import Typography from "@mui/material/Typography";
 import data from "../../Services/data.json";
 
+/**
+ * Footer component.
+ */
 export default function Footer() {
     return (
         <div className="footer-div">

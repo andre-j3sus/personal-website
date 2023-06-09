@@ -4,7 +4,7 @@
     "target": "ES6",
     "moduleResolution": "node",
     "strict": true,
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "resolveJsonModule": true,
     "typeRoots": [
       "node_modules/@types",
