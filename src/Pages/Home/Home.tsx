@@ -1,12 +1,15 @@
 import * as React from "react"
-import {Container} from "@mui/material"
+import Greeting from "../../Components/Greeting/Greeting";
+import Skills from "../../Components/Skills/Skills";
 
 /**
  * Home page.
  */
 export default function Home() {
     return (
-        <Container>
-        </Container>
+        <div>
+            <Greeting/>
+            <Skills/>
+        </div>
     )
 }

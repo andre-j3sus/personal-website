@@ -11,69 +11,57 @@
     "description": "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with React, Node, Express, Spring, Android, Kotlin, Python, Machine Learning and Opensource Development.",
     "data": [
       {
-        "name": "Email",
-        "url": "mailto:andre.jesus.pilar@gmail.com",
-        "fontAwesomeIcon": "fa-envelope",
-        "backgroundColor": "#2b7489"
-      },
-      {
-        "name": "Phone",
-        "url": "tel:+351930533735",
-        "fontAwesomeIcon": "fa-phone",
-        "backgroundColor": "#2b7489"
-      },
-      {
         "name": "Github",
         "url": "https://github.com/andre-j3sus",
-        "fontAwesomeIcon": "fa-github",
+        "fontAwesomeIcon": "fa-brands fa-github fa-2xl",
         "backgroundColor": "#181717"
       },
       {
         "name": "LinkedIn",
         "url": "https://www.linkedin.com/in/andre-jesus-engineering",
-        "fontAwesomeIcon": "fa-linkedin",
+        "fontAwesomeIcon": "fa-brands fa-linkedin fa-2xl",
         "backgroundColor": "#0077B5"
       },
       {
         "name": "YouTube",
         "url": "https://www.youtube.com/@andre-j3sus",
-        "fontAwesomeIcon": "fa-youtube",
+        "fontAwesomeIcon": "fa-brands fa-youtube fa-2xl",
         "backgroundColor": "#FF0000"
       },
       {
         "name": "Gmail",
         "url": "mailto:andre.jesus.pilar@gmail.com",
-        "fontAwesomeIcon": "fa-google",
+        "fontAwesomeIcon": "fa-brands fa-google fa-2xl",
         "backgroundColor": "#D14836"
       },
       {
         "name": "Twitter",
         "url": "https://twitter.com/andre_j3sus",
-        "fontAwesomeIcon": "fa-twitter",
+        "fontAwesomeIcon": "fa-brands fa-twitter fa-2xl",
         "backgroundColor": "#1DA1F2"
       },
       {
         "name": "Instagram",
         "url": "https://www.instagram.com/andre.j3sus",
-        "fontAwesomeIcon": "fa-instagram",
+        "fontAwesomeIcon": "fa-brands fa-instagram fa-2xl",
         "backgroundColor": "#E4405F"
       },
       {
         "name": "Stack Overflow",
         "url": "https://stackoverflow.com/users/15545640/andr%c3%a9-jesus",
-        "fontAwesomeIcon": "fa-stack-overflow",
+        "fontAwesomeIcon": "fa-brands fa-stack-overflow fa-2xl",
         "backgroundColor": "#F48024"
       },
       {
         "name": "Goodreads",
         "url": "https://www.goodreads.com/user/show/108854374-andr-jesus",
-        "fontAwesomeIcon": "fa-goodreads",
+        "fontAwesomeIcon": "fa-brands fa-goodreads fa-2xl",
         "backgroundColor": "#553B08"
       },
       {
         "name": "Spotify",
         "url": "https://open.spotify.com/user/andré.jesus",
-        "fontAwesomeIcon": "fa-spotify",
+        "fontAwesomeIcon": "fa-brands fa-spotify fa-2xl",
         "backgroundColor": "#1ED760"
       }
     ]
@@ -100,50 +88,49 @@
         "softwareSkills": [
           {
             "skillName": "HTML5",
-            "fontAwesome": "fa-html5",
+            "fontAwesome": "fa-brands fa-html5",
             "style": {
               "color": "#E34F26"
             }
           },
           {
             "skillName": "CSS3",
-            "fontAwesome": "fa-css3",
+            "fontAwesome": "fa-brands fa-css3",
             "style": {
               "color": "#1572B6"
             }
           },
           {
             "skillName": "JavaScript",
-            "fontAwesome": "fa-js",
+            "fontAwesome": "fa-brands fa-square-js",
             "style": {
-              "backgroundColor": "#000000",
               "color": "#F7DF1E"
             }
           },
           {
             "skillName": "TypeScript",
-            "fontAwesome": "fa-js",
+            "fontAwesome": "fa-brands fa-js",
             "style": {
               "color": "#3178C6"
             }
           },
           {
             "skillName": "NodeJS",
-            "fontAwesomeClassname": "simple-icons:node-dot-js",
+            "fontAwesome": "fa-brands fa-node-js",
             "style": {
               "color": "#339933"
             }
           },
           {
             "skillName": "Express",
-            "fontAwesomeClassname": "simple-icons:express",
+            "fontAwesome": "simple-icons:express",
             "style": {
               "color": "#000000"
             }
           },
           {
             "skillName": "ReactJS",
-            "fontAwesomeClassname": "simple-icons:react",
+            "fontAwesome": "fa-brands fa-react",
             "style": {
               "color": "#61DAFB"
             }
@@ -168,15 +155,10 @@
         "softwareSkills": [
           {
             "skillName": "Python",
-            "fontAwesome": "fa-python"
-          },
-          {
-            "skillName": "TensorFlow",
-            "fontAwesome": "fa-tensorflow"
-          },
-          {
-            "skillName": "PyTorch",
-            "fontAwesome": "fa-torch"
+            "fontAwesome": "fa-brands fa-python",
+            "style": {
+              "color": "#3776AB"
+            }
           }
         ]
       },
@@ -195,11 +177,11 @@
           },
           {
             "skillName": "PostgreSQL",
-            "fontAwesome": "fa-database"
+            "fontAwesome": "fa-brands fa-database"
           },
           {
             "skillName": "MongoDB",
-            "fontAwesome": "fa-database"
+            "fontAwesome": "fa-brands fa-database"
           }
         ]
       }

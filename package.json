@@ -6,6 +6,10 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@interacta/css-labels": "^0.0.2",
     "@mui/icons-material": "^5.10.14",
     "@mui/lab": "^5.0.0-alpha.124",
@@ -15,35 +19,38 @@
     "color-interpolate": "^1.0.5",
     "dotenv": "^16.0.3",
     "font-atlas-sdf": "^2.0.0",
-    "mui-nested-menu": "^3.2.0",
     "random": "^4.1.0",
     "raw-loader": "^4.0.2",
-    "re-resizable": "^6.9.9",
-    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
-    "react-drag-drop-files": "^2.3.9",
-    "react-draggable": "^4.4.5",
     "react-google-charts": "^4.0.0",
     "react-router-dom": "^6.4.3",
-    "react-to-print": "^2.14.12",
+    "react-scripts": "^5.0.1",
     "regl": "^2.1.0",
-    "vectorize-text": "^3.2.2"
+    "vectorize-text": "^3.2.2",
+    "webpack": "^5.86.0"
   },
   "devDependencies": {
     "@types/react-dom": "^18.0.11",
     "css-loader": "^6.7.2",
-    "dotenv-webpack": "^8.0.1",
     "file-loader": "^6.2.0",
-    "html-webpack-plugin": "^5.5.0",
     "json-loader": "^0.5.7",
     "style-loader": "^3.3.1",
     "ts-loader": "^9.4.1",
-    "typescript": "^4.8.4",
-    "webpack-cli": "^5.0.1",
-    "webpack-dev-server": "^4.13.3"
+    "typescript": "^4.8.4"
   },
   "scripts": {
-    "start": "webpack serve",
-    "build": "webpack"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "babelMacros" : {
+    "fontawesome-svg-core" : {
+      "license": "free"
+    }
   }
 }
