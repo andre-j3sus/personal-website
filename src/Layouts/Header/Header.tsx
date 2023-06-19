@@ -46,21 +46,10 @@ interface MyNavLinkProps {
  */
 function MyNavLink({to, text}: MyNavLinkProps) {
     const path = useLocation().pathname;
-    const onMouseEnter = (event) => {
-        const el = event.target;
-        el.style.backgroundColor = "#f5f5f5";
-    };
-
-    const onMouseOut = (event) => {
-        const el = event.target;
-        el.style.backgroundColor = "transparent";
-    };
 
     return (
         <NavLink
             to={to}
-            onMouseEnter={onMouseEnter}
-            onMouseOut={onMouseOut}
             style={{fontWeight: path == to ? "bold" : "normal"}}
         >
             {text}

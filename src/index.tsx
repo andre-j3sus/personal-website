@@ -67,37 +67,6 @@ const theme = createTheme({
                 }
             }
         },
-        MuiCssBaseline: {
-            styleOverrides: {
-                '*': {
-                    boxSizing: 'border-box',
-                    margin: 0,
-                    padding: 0
-                },
-                html: {
-                    MozOsxFontSmoothing: 'grayscale',
-                    WebkitFontSmoothing: 'antialiased',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    minHeight: '100%',
-                    width: '100%'
-                },
-                body: {
-                    display: 'flex',
-                    flex: '1 1 auto',
-                    flexDirection: 'column',
-                    minHeight: '100%',
-                    width: '100%'
-                },
-                '#__next': {
-                    display: 'flex',
-                    flex: '1 1 auto',
-                    flexDirection: 'column',
-                    height: '100%',
-                    width: '100%'
-                }
-            }
-        },
         MuiOutlinedInput: {
             styleOverrides: {
                 notchedOutline: {
@@ -139,18 +108,18 @@ const theme = createTheme({
             disabled: 'rgba(55, 65, 81, 0.26)'
         },
         background: {
-            default: '#F9FAFC',
+            default: '#edf9fe',
             paper: '#FFFFFF'
         },
         divider: '#E6E8F0',
         primary: {
             main: '#0e3569',
-            light: '#dbe1eb',
-            dark: '#efefef',
+            light: '#A6E1FA',
+            dark: '#00072D',
             contrastText: '#ffffff'
         },
         secondary: {
-            main: '#10B981',
+            main: '#7F8DAA',
             light: '#3FC79A',
             dark: '#0B815A',
             contrastText: '#FFFFFF'
@@ -180,8 +149,8 @@ const theme = createTheme({
             contrastText: '#FFFFFF'
         },
         text: {
-            primary: '#121828',
-            secondary: '#65748B',
+            primary: '#001C55',
+            secondary: '#7F8DAA',
             disabled: 'rgba(55, 65, 81, 0.48)'
         }
     },

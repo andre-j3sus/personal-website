@@ -1,6 +1,7 @@
 import "./Skills.css";
 import data from "../../Services/data.json";
 import * as React from "react";
+import WebImage from "../../Assets/images/fullstack.svg";
 
 export default function Skills() {
     return (
@@ -16,7 +17,7 @@ export default function Skills() {
                         return (
                             <div className="skills-main-div" key={skill.title}>
                                 <div className="skills-image-div">
-                                    {/*<GetSkillSvg fileName={skill.fileName} theme={theme} />*/}
+                                    <SkillSvg skill={skill.title}/>
                                 </div>
 
                                 <div className="skills-text-div">
@@ -62,4 +63,23 @@ function SoftwareSkills({softwareSkills}) {
             </div>
         </div>
     );
+}
+
+function SkillSvg({skill}) {
+    if (skill === "Web Development") {
+        return (
+            <img
+                alt="Web development"
+                src={WebImage}
+            ></img>
+        );
+    }
+    else {
+        return (
+            <img
+                alt="Web development"
+                src={WebImage}
+            ></img>
+        );
+    }
 }
