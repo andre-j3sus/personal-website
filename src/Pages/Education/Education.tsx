@@ -1,5 +1,4 @@
 import * as React from "react"
-import Image from "../../Assets/images/learning-bro.svg";
 import "./Education.css";
 import data from "../../Services/data.json";
 import DegreeCard from "../../Components/DegreeCard/DegreeCard";
@@ -16,7 +15,7 @@ export default function Education() {
                     <div className="heading-img-div">
                         <img
                             alt="Education"
-                            src={Image}
+                            src={require(`../../Assets/images/${data.education.headerImagePath}`)}
                             width={"94%"}
                         ></img>
                     </div>

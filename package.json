@@ -10,11 +10,15 @@
     "@fortawesome/free-regular-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@iconify/iconify": "^3.1.0",
+    "@iconify/icons-logos": "^1.2.33",
+    "@iconify/react": "^4.1.0",
     "@interacta/css-labels": "^0.0.2",
     "@mui/icons-material": "^5.10.14",
     "@mui/lab": "^5.0.0-alpha.124",
     "@mui/material": "^5.10.14",
     "@mui/x-data-grid": "^6.1.0",
+    "baseui": "^13.0.0",
     "buffer": "^6.0.3",
     "color-interpolate": "^1.0.5",
     "dotenv": "^16.0.3",
@@ -48,8 +52,8 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "babelMacros" : {
-    "fontawesome-svg-core" : {
+  "babelMacros": {
+    "fontawesome-svg-core": {
       "license": "free"
     }
   }

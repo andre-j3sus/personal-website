@@ -2,7 +2,6 @@ import * as React from "react"
 import data from "../../Services/data.json";
 import SocialMedia from "../SocialMedia/SocialMedia";
 import "./Greeting.css";
-import Image from "../../Assets/images/website-creator-bro.svg";
 
 /**
  * Greeting component.
@@ -27,8 +26,8 @@ export default function Greeting() {
                 </div>
                 <div className="greeting-image-div">
                     <img
-                        alt="Sitting on table with laptop"
-                        src={Image}
+                        alt="Greeting Image"
+                        src={require(`../../Assets/images/${data.homeImagePath}`)}
                     ></img>
                 </div>
             </div>

@@ -1,10 +1,10 @@
 import React from "react";
-import "./DegreeCard.css";
+import "./ExperienceCard.css";
 
-function DegreeCard({degree}) {
+function ExperienceCard({experience}) {
     return (
         <div className="degree-card">
-            {degree.logoPath && (
+            {experience.company.logoPath && (
                 <div className="card-img">
                     <img
                         style={{
@@ -12,43 +12,43 @@ function DegreeCard({degree}) {
                             maxHeight: "100%",
                             transform: "scale(0.9)",
                         }}
-                        src={require(`../../Assets/images/${degree.logoPath}`)}
-                        alt="Education"
+                        src={require(`../../Assets/images/${experience.company.logoPath}`)}
+                        alt={experience.company}
                     />
                 </div>
             )}
             <div
                 className="card-body"
-                style={{width: degree.logoPath ? "90%" : "100%"}}
+                style={{width: experience.logoPath ? "90%" : "100%"}}
             >
                 <div
                     className="body-header"
                 >
                     <div className="body-header-title">
                         <h2 className="card-title">
-                            {degree.title}
+                            {experience.title}
                         </h2>
                         <h3 className="card-subtitle">
-                            {degree.subtitle}
+                            {experience.company.name}
                         </h3>
                     </div>
                     <div className="body-header-duration">
                         <h3 className="duration">
-                            {degree.duration}
+                            {experience.duration}
                         </h3>
                     </div>
                 </div>
                 <div className="body-content">
-                    {degree.descriptions.map((sentence) => {
+                    {experience.descriptions.map((sentence) => {
                         return (
                             <p className="content-list" key={sentence}>
                                 {sentence}
                             </p>
                         );
                     })}
-                    {degree.url && (
+                    {experience.company.url && (
                         <a
-                            href={degree.url}
+                            href={experience.url}
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -65,4 +65,4 @@ function DegreeCard({degree}) {
     );
 }
 
-export default DegreeCard;
+export default ExperienceCard;

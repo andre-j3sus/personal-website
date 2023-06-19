@@ -1,7 +1,7 @@
 import "./Skills.css";
 import data from "../../Services/data.json";
 import * as React from "react";
-import WebImage from "../../Assets/images/fullstack.svg";
+import {Icon} from "@iconify/react";
 
 export default function Skills() {
     return (
@@ -17,7 +17,11 @@ export default function Skills() {
                         return (
                             <div className="skills-main-div" key={skill.title}>
                                 <div className="skills-image-div">
-                                    <SkillSvg skill={skill.title}/>
+                                    <img
+                                        alt="Skill Image"
+                                        src={require(`../../Assets/images/${skill.imagePath}`)}
+                                        width={"80%"}
+                                    ></img>
                                 </div>
 
                                 <div className="skills-text-div">
@@ -52,10 +56,7 @@ function SoftwareSkills({softwareSkills}) {
                     {softwareSkills.map((skill) => {
                         return (
                             <li className="software-skill-inline" key={skill.skillName}>
-                                <span
-                                    className={skill.fontAwesome + " iconify"}
-                                    style={skill.style}
-                                ></span>
+                                <Icon icon={skill.icon} style={skill.style}/>
                             </li>
                         );
                     })}
@@ -63,23 +64,4 @@ function SoftwareSkills({softwareSkills}) {
             </div>
         </div>
     );
-}
-
-function SkillSvg({skill}) {
-    if (skill === "Web Development") {
-        return (
-            <img
-                alt="Web development"
-                src={WebImage}
-            ></img>
-        );
-    }
-    else {
-        return (
-            <img
-                alt="Web development"
-                src={WebImage}
-            ></img>
-        );
-    }
 }

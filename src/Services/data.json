@@ -4,6 +4,7 @@
   "url": "https://andre-j3sus.github.io",
   "headline": "Hey there 👋, welcome to my website!",
   "logoName": "Andre Jesus",
+  "homeImagePath": "website-creator-bro.svg",
   "repository": "https://github.com/andre-j3sus/andre-j3sus-website",
   "contacts": {
     "title": "Contact Me",
@@ -79,6 +80,7 @@
     "data": [
       {
         "title": "Web Development",
+        "imagePath": "domain-names-bro.svg",
         "skills": [
           "⚡ Developing RESTful APIs using Node, Express & Spring",
           "⚡ Building responsive website front end using React, Bootstrap & Material-UI",
@@ -87,101 +89,168 @@
         "softwareSkills": [
           {
             "skillName": "HTML5",
-            "fontAwesome": "fa-brands fa-html5",
+            "icon": "fa6-brands:html5",
             "style": {
               "color": "#E34F26"
             }
           },
           {
             "skillName": "CSS3",
-            "fontAwesome": "fa-brands fa-css3",
+            "icon": "fa6-brands:css3-alt",
             "style": {
               "color": "#1572B6"
             }
           },
           {
             "skillName": "JavaScript",
-            "fontAwesome": "fa-brands fa-square-js",
+            "icon": "simple-icons:javascript",
             "style": {
               "color": "#F7DF1E",
-              "background": "#323330",
-              "width": "20px"
+              "backgroundColor": "#323330"
             }
           },
           {
             "skillName": "TypeScript",
-            "fontAwesome": "fa-brands fa-js",
+            "icon": "simple-icons:typescript",
             "style": {
               "color": "#3178C6"
             }
           },
           {
             "skillName": "NodeJS",
-            "fontAwesome": "fa-brands fa-node-js",
+            "icon": "simple-icons:node-dot-js",
             "style": {
               "color": "#339933"
             }
           },
           {
-            "skillName": "Express",
-            "fontAwesome": "simple-icons:express",
+            "skillName": "Spring",
+            "icon": "simple-icons:spring",
             "style": {
-              "color": "#000000"
+              "color": "#6DB33F"
             }
           },
           {
             "skillName": "ReactJS",
-            "fontAwesome": "fa-brands fa-react",
+            "icon": "simple-icons:react",
             "style": {
               "color": "#61DAFB"
             }
           },
           {
             "skillName": "Material-UI",
-            "fontAwesomeClassname": "simple-icons:material-ui",
+            "icon": "simple-icons:material-ui",
             "style": {
               "color": "#0081CB"
             }
-          }
-        ]
-      },
-      {
-        "title": "Machine Learning",
-        "skills": [
-          "⚡ Understanding and implementing various machine learning algorithms",
-          "⚡ Experience with libraries like TensorFlow and PyTorch",
-          "⚡ Deep learning models for computer vision and natural language processing"
-        ],
-        "softwareSkills": [
+          },
           {
-            "skillName": "Python",
-            "fontAwesome": "fa-brands fa-python",
+            "skillName": "Bootstrap",
+            "icon": "simple-icons:bootstrap",
             "style": {
-              "color": "#3776AB"
+              "color": "#563D7C"
             }
           }
         ]
       },
       {
-        "title": "Database",
-        "fileName": "DatabaseImg",
+        "title": "Software Development",
+        "imagePath": "code-typing-bro.svg",
         "skills": [
-          "⚡ Designing and maintaining relational databases",
-          "⚡ Working with MySQL, PostgreSQL, and MongoDB",
-          "⚡ Writing efficient SQL queries"
+          "⚡ Building applications using Java, Kotlin, and Python",
+          "⚡ Solving Data Structure and Algorithm questions in Java and Python"
         ],
         "softwareSkills": [
           {
-            "skillName": "MySQL",
-            "fontAwesome": "fa-database"
+            "skillName": "Java",
+            "icon": "simple-icons:java",
+            "style": {
+              "color": "#007396"
+            }
+          },
+          {
+            "skillName": "Kotlin",
+            "icon": "simple-icons:kotlin",
+            "style": {
+              "color": "#B125EA"
+            }
+          },
+          {
+            "skillName": "Python",
+            "icon": "simple-icons:python",
+            "style": {
+              "color": "#3776AB"
+            }
+          },
+          {
+            "skillName": "Git",
+            "icon": "simple-icons:git",
+            "style": {
+              "color": "#F05032"
+            }
+          },
+          {
+            "skillName": "GitHub",
+            "icon": "simple-icons:github",
+            "style": {
+              "color": "#181717"
+            }
+          },
+          {
+            "skillName": "Docker",
+            "icon": "simple-icons:docker",
+            "style": {
+              "color": "#2496ED"
+            }
+          },
+          {
+            "skillName": "Linux",
+            "icon": "simple-icons:linux",
+            "style": {
+              "color": "#FCC624"
+            }
+          },
+          {
+            "skillName": "LaTeX",
+            "icon": "simple-icons:latex",
+            "style": {
+              "color": "#008080"
+            }
+          },
+          {
+            "skillName": "C",
+            "icon": "simple-icons:c",
+            "style": {
+              "color": "#A8B9CC"
+            }
           },
           {
             "skillName": "PostgreSQL",
-            "fontAwesome": "fa-brands fa-database"
+            "icon": "simple-icons:postgresql",
+            "style": {
+              "color": "#336791"
+            }
           },
           {
             "skillName": "MongoDB",
-            "fontAwesome": "fa-brands fa-database"
+            "icon": "simple-icons:mongodb",
+            "style": {
+              "color": "#47A248"
+            }
+          },
+          {
+            "skillName": "Google Cloud Platform",
+            "icon": "simple-icons:googlecloud",
+            "style": {
+              "color": "#4285F4"
+            }
+          },
+          {
+            "skillName": "Elasticsearch",
+            "icon": "simple-icons:elasticsearch",
+            "style": {
+              "color": "#005571"
+            }
           }
         ]
       }
@@ -191,18 +260,19 @@
     "title": "Education",
     "subtitle": "Qualification and Certifications",
     "description": "I'm currently studying Computer Science and Engineering at ISEL, Lisbon.",
+    "headerImagePath": "learning-bro.svg",
     "degrees": [
       {
         "title": "Instituto Superior de Engenharia de Lisboa",
         "subtitle": "BSc. in Computer Science and Engineering",
-        "logo_path": "isel_logo.png",
+        "logoPath": "isel_logo.png",
         "duration": "2020 - 2023",
         "descriptions": [
           "⚡ I have studied basic software engineering subjects like Programming, Algorithms and Data Structures, OOP, Web Development, Databases, Computer Networks, Operating Systems, etc.",
-          "⚡ Apart from this, I were the student representative between 2022 and 2023, where I represented the students of my course in the pedagogical council of the school.",
-          "⚡ I received two merit scholarships for my academic excellence, one when I entered the school (2020) and another one in 2022."
+          "⚡ Apart from this, I were the student representative between 2022 and 2023, where I represented the students of my degree in the pedagogical council of the school.",
+          "⚡ I received two merit scholarships for my academic excellence, one in 2020 and another one in 2022."
         ],
-        "website_link": "https://www.isel.pt/en"
+        "url": "https://www.isel.pt/en"
       }
     ]
   },
@@ -210,43 +280,39 @@
     "title": "Experience",
     "subtitle": "Work, Internship and Volunteership",
     "description": "",
-    "header_image_path": "experience.svg",
-    "sections": [
+    "headerImagePath": "signing-a-contract-bro.svg",
+    "experiences": [
       {
-        "title": "Work",
-        "description": "",
-        "experiences": [
-          {
-            "title": "Monitor",
-            "company": "Instituto Superior de Engenharia de Lisboa",
-            "company_url": "https://www.isel.pt/en",
-            "logo_path": "isel_logo.png",
-            "duration": "November 2022 - PRESENT",
-            "location": "Lisbon, Portugal",
-            "description": "I am responsible for the support of the students of the Introduction to Internet Programming and Software Laboratory subjects. I also help the students with the development of the projects of the subjects and to better understand the concepts of the subjects.",
-            "color": "#0879bf"
-          },
-          {
-            "title": "Tutor",
-            "company": "Apto — Apoio Pedagógico Total, Lda.",
-            "company_url": "https://www.apto.pt/",
-            "logo_path": "apto_logo.jpg",
-            "duration": "September 2022 - PRESENT",
-            "location": "Lisbon, Portugal",
-            "description": "I am responsible for the support of the students of the Mathematics subjects.",
-            "color": "#9b1578"
-          }
+        "title": "Monitor",
+        "company": {
+          "name": "Instituto Superior de Engenharia de Lisboa",
+          "conglomerate": "Instituto Politécnico de Lisboa",
+          "url": "https://www.isel.pt/en",
+          "logoPath": "isel_logo.png"
+        },
+        "duration": "November 2022 - PRESENT",
+        "location": "Lisbon, Portugal",
+        "descriptions": [
+          "⚡ Support for the functioning of the Introduction to Web Programming and Software Laboratory curricular units of the 3rd and 4th semesters of the BSc in Computer Science and Computer Engineering.",
+          "⚡ Support to practical lessons.",
+          "⚡ Clarification of doubts to students.",
+          "⚡ Maintenance of software installed on the server used in Software Laboratory curricular unit projects.",
+          "⚡ Vigilance and correction of the moments of evaluation of the curricular units."
         ]
       },
       {
-        "title": "Internships",
-        "description": "I have worked with the following companies as an intern.",
-        "experiences": []
-      },
-      {
-        "title": "Volunteerships",
-        "description": "I have worked with the following companies as a volunteer.",
-        "experiences": []
+        "title": "Tutor",
+        "company": {
+          "name": "Apto — Apoio Pedagógico Total, Lda.",
+          "conglomerate": null,
+          "url": "https://www.apto.pt/",
+          "logoPath": "apto_logo.png"
+        },
+        "duration": "September 2022 - PRESENT",
+        "location": "Lisbon, Portugal",
+        "descriptions": [
+          "⚡ Provided personalized academic support and guidance to students in primary and secondary education, helping them achieve their educational goals with confidence."
+        ]
       }
     ]
   },

@@ -10,6 +10,7 @@ import Projects from "./Pages/Projects/Projects";
 import Home from "./Pages/Home/Home";
 import Header from "./Layouts/Header/Header";
 import Footer from "./Layouts/Footer/Footer";
+import TopButton from "./Components/TopButton/TopButton";
 
 /**
  * App component.
@@ -29,6 +30,7 @@ export default function App() {
                     <Route path="*" element={<NotFoundPage/>}/>
                 </Routes>
                 <Footer/>
+                <TopButton/>
             </div>
         </div>
     )
