@@ -7,6 +7,7 @@ import {Container} from "@mui/material"
 export default function About() {
     return (
         <Container>
+            {/*TODO: Add about page.*/}
         </Container>
     )
 }

@@ -6,6 +6,8 @@
   "logoName": "Andre Jesus",
   "homeImagePath": "website-creator-bro.svg",
   "repository": "https://github.com/andre-j3sus/andre-j3sus-website",
+  "resume": "https://www.canva.com/design/DAFUaHsRNDo/OUWh8boNosWQ3YeIp0tI6A/view?utm_content=DAFUaHsRNDo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
+  "github": "https://github.com/andre-j3sus",
   "contacts": {
     "title": "Contact Me",
     "subtitle": "Want to get in touch? Feel free to reach out.",
@@ -261,6 +263,7 @@
     "subtitle": "Qualification and Certifications",
     "description": "Here's my educational background. I am currently pursuing my BSc. in Computer Science and Engineering from Instituto Superior de Engenharia de Lisboa.",
     "headerImagePath": "learning-bro.svg",
+    "icon": "fas fa-graduation-cap",
     "degrees": [
       {
         "title": "Instituto Superior de Engenharia de Lisboa",
@@ -281,6 +284,7 @@
     "subtitle": "Work, Internship and Volunteership",
     "description": "Here's my work experience so far. I am currently working as a Monitor at ISEL.",
     "headerImagePath": "signing-a-contract-bro.svg",
+    "icon": "fas fa-briefcase",
     "experiences": [
       {
         "title": "Monitor",
@@ -316,11 +320,12 @@
       }
     ]
   },
-  "projects": {
+  "portfolio": {
     "title": "Portfolio",
     "subtitle": "Projects, Publications and Research Papers",
     "description": "My projects make use of vast variety of latest technology tools. My best experience is to create Web Applications and deploy them to web services. Here's a list of my favorite projects I have worked on.",
     "headerImagePath": "timeline-bro.svg",
+    "icon": "fas fa-project-diagram",
     "projects": [
       {
         "title": "PHYLOViZ Web Platform",

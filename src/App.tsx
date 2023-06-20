@@ -6,7 +6,7 @@ import {NotFoundPage} from './Pages/NotFoundPage'
 import About from "./Pages/About/About";
 import Education from "./Pages/Education/Education";
 import Experience from "./Pages/Experience/Experience";
-import Projects from "./Pages/Projects/Projects";
+import Portfolio from "./Pages/Portfolio/Portfolio";
 import Home from "./Pages/Home/Home";
 import Header from "./Layouts/Header/Header";
 import Footer from "./Layouts/Footer/Footer";
@@ -25,7 +25,7 @@ export default function App() {
                     <Route path={WebUiUris.ABOUT} element={<About/>}/>
                     <Route path={WebUiUris.EDUCATION} element={<Education/>}/>
                     <Route path={WebUiUris.EXPERIENCE} element={<Experience/>}/>
-                    <Route path={WebUiUris.PROJECTS} element={<Projects/>}/>
+                    <Route path={WebUiUris.PORTFOLIO} element={<Portfolio/>}/>
 
                     <Route path="*" element={<NotFoundPage/>}/>
                 </Routes>

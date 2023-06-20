@@ -1,14 +1,14 @@
 import * as React from "react"
-import Typography from "@mui/material/Typography"
 import {Button} from "@mui/material"
 import HomeIcon from "@mui/icons-material/Home"
 import {useNavigate} from "react-router-dom"
 import {WebUiUris} from "./WebUiUris"
 import Box from "@mui/material/Box"
-//import Logo from "../Assets/logo.png"
+
+import Image from "../Assets/images/error.svg"
 
 /**
- * Page not found component.
+ * Page Not Found.
  */
 export function NotFoundPage() {
     const navigate = useNavigate()
@@ -28,17 +28,14 @@ export function NotFoundPage() {
                 height: '100%',
                 width: '50%'
             }}>
-                <Typography variant="h1" component="h1" sx={{fontSize: 200, fontWeight: 700}}>
-                    404
-                </Typography>
-
-                <Typography variant="h2" component="h2" gutterBottom>
-                    Page not found
-                </Typography>
-
-                <Typography variant="body1" gutterBottom>
-                    We couldn't find the page you were looking for.
-                </Typography>
+                <img
+                    style={{
+                        transform: "scale(0.9)",
+                    }}
+                    src={Image}
+                    alt="404"
+                    height="500px"
+                />
 
                 <Button
                     variant="contained"
@@ -46,20 +43,9 @@ export function NotFoundPage() {
                     onClick={() => navigate(WebUiUris.HOME)}
                     sx={{width: "50%"}}
                 >
-                    Go to Home
+                    Back to Home
                 </Button>
             </Box>
-            {/*<Box
-                sx={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    width: '50%'
-                }}
-            >
-                <img src={Logo} alt="Logo" width="40%"/>
-            </Box>*/}
         </Box>
     )
 }
