@@ -66,6 +66,12 @@
         "url": "https://open.spotify.com/user/andré.jesus",
         "fontAwesomeIcon": "fa-brands fa-spotify fa-2xl",
         "backgroundColor": "#1ED760"
+      },
+      {
+        "name": "TV Time",
+        "url": "https://www.tvtime.com/en/user/28579171/profile",
+        "fontAwesomeIcon": "fas fa-tv fa-2xl",
+        "backgroundColor": "#FFD700"
       }
     ]
   },
@@ -81,175 +87,244 @@
   "skills": {
     "data": [
       {
-        "title": "Web Development",
-        "imagePath": "domain-names-bro.svg",
-        "skills": [
-          "⚡ Developing RESTful APIs using Node, Express & Spring",
-          "⚡ Building responsive website front end using React, Bootstrap & Material-UI",
-          "⚡ Developing mobile applications using Android, Jetpack Compose & Kotlin"
-        ],
-        "softwareSkills": [
-          {
-            "skillName": "HTML5",
-            "icon": "fa6-brands:html5",
-            "style": {
-              "color": "#E34F26"
-            }
-          },
-          {
-            "skillName": "CSS3",
-            "icon": "fa6-brands:css3-alt",
-            "style": {
-              "color": "#1572B6"
-            }
-          },
-          {
-            "skillName": "JavaScript",
-            "icon": "simple-icons:javascript",
-            "style": {
-              "color": "#F7DF1E",
-              "backgroundColor": "#323330"
-            }
-          },
-          {
-            "skillName": "TypeScript",
-            "icon": "simple-icons:typescript",
-            "style": {
-              "color": "#3178C6"
-            }
-          },
-          {
-            "skillName": "NodeJS",
-            "icon": "simple-icons:node-dot-js",
-            "style": {
-              "color": "#339933"
-            }
-          },
-          {
-            "skillName": "Spring",
-            "icon": "simple-icons:spring",
-            "style": {
-              "color": "#6DB33F"
-            }
-          },
-          {
-            "skillName": "ReactJS",
-            "icon": "simple-icons:react",
-            "style": {
-              "color": "#61DAFB"
-            }
-          },
-          {
-            "skillName": "Material-UI",
-            "icon": "simple-icons:material-ui",
-            "style": {
-              "color": "#0081CB"
-            }
-          },
-          {
-            "skillName": "Bootstrap",
-            "icon": "simple-icons:bootstrap",
-            "style": {
-              "color": "#563D7C"
-            }
-          }
-        ]
-      },
-      {
-        "title": "Software Development",
+        "title": "Programming Languages & Tools",
         "imagePath": "code-typing-bro.svg",
         "skills": [
-          "⚡ Building applications using Java, Kotlin, and Python",
-          "⚡ Solving Data Structure and Algorithm questions in Java and Python"
+          "⚡ Well-versed in programming paradigms, enabling flexible problem-solving approaches.",
+          "⚡ Experience in developing software solutions using diverse programming languages.",
+          "⚡ Proficiency in Git and GitHub for smooth collaboration and code management.",
+          "⚡ Well-versed in LaTeX for creating professional and well-formatted documents."
         ],
         "softwareSkills": [
           {
             "skillName": "Java",
-            "icon": "simple-icons:java",
+            "icon": "devicon:java",
             "style": {
               "color": "#007396"
             }
           },
           {
             "skillName": "Kotlin",
-            "icon": "simple-icons:kotlin",
+            "icon": "devicon:kotlin",
             "style": {
               "color": "#B125EA"
             }
           },
           {
             "skillName": "Python",
-            "icon": "simple-icons:python",
+            "icon": "devicon:python",
             "style": {
               "color": "#3776AB"
             }
           },
           {
+            "skillName": "C",
+            "icon": "devicon:c",
+            "style": {
+              "color": "#A8B9CC"
+            }
+          },
+          {
+            "skillName": "Prolog",
+            "icon": "devicon:prolog",
+            "style": {
+              "color": "#6A2C70"
+            }
+          },
+          {
             "skillName": "Git",
-            "icon": "simple-icons:git",
+            "icon": "devicon:git",
             "style": {
               "color": "#F05032"
             }
           },
           {
             "skillName": "GitHub",
-            "icon": "simple-icons:github",
+            "icon": "devicon:github",
             "style": {
               "color": "#181717"
             }
           },
           {
+            "skillName": "LaTeX",
+            "icon": "skill-icons:latex-light",
+            "style": {
+              "color": "#008080"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Web Development",
+        "imagePath": "domain-names-bro.svg",
+        "skills": [
+          "⚡ Experienced in backend development, ensuring security and scalability.",
+          "⚡ Building responsive user interfaces for web applications.",
+          "⚡ Familiarity with tools like Webpack, NGINX, and Postman for efficient development and testing processes."
+        ],
+        "softwareSkills": [
+          {
+            "skillName": "HTML5",
+            "icon": "devicon-html5",
+            "style": {
+              "color": "#E34F26"
+            }
+          },
+          {
+            "skillName": "CSS3",
+            "icon": "devicon-css3",
+            "style": {
+              "color": "#1572B6"
+            }
+          },
+          {
+            "skillName": "JavaScript",
+            "icon": "devicon-javascript",
+            "style": {
+              "color": "#F7DF1E"
+            }
+          },
+          {
+            "skillName": "TypeScript",
+            "icon": "devicon-typescript",
+            "style": {
+              "color": "#3178C6"
+            }
+          },
+          {
+            "skillName": "NodeJS",
+            "icon": "devicon-nodejs",
+            "style": {
+              "color": "#339933"
+            }
+          },
+          {
+            "skillName": "ExpressJS",
+            "icon": "devicon-express",
+            "style": {
+              "color": "#000000"
+            }
+          },
+          {
+            "skillName": "ReactJS",
+            "icon": "devicon-react",
+            "style": {
+              "color": "#61DAFB"
+            }
+          },
+          {
+            "skillName": "Material-UI",
+            "icon": "devicon-materialui",
+            "style": {
+              "color": "#0081CB"
+            }
+          },
+          {
+            "skillName": "Bootstrap",
+            "icon": "devicon-bootstrap",
+            "style": {
+              "color": "#563D7C"
+            }
+          },
+          {
+            "skillName": "Webpack",
+            "icon": "devicon-webpack",
+            "style": {
+              "color": "#8DD6F9"
+            }
+          },
+          {
+            "skillName": "Spring",
+            "icon": "devicon-spring",
+            "style": {
+              "color": "#6DB33F"
+            }
+          },
+          {
+            "skillName": "NGINX",
+            "icon": "simple-icons:nginx",
+            "style": {
+              "color": "#009639"
+            }
+          },
+          {
+            "skillName": "Postman",
+            "icon": "simple-icons:postman",
+            "style": {
+              "color": "#FF6C37"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cloud Infra & Databases",
+        "imagePath": "server-bro.svg",
+        "skills": [
+          "⚡ Proficiency in Docker for efficient application deployment through containerization.",
+          "⚡ Experience in Linux for effective server management and administration.",
+          "⚡ Familiarity with Google Cloud Platform scalable and reliable cloud infrastructure solutions.",
+          "⚡ Experience in several database technologies, for efficient data storage and retrieval."
+        ],
+        "softwareSkills": [
+          {
             "skillName": "Docker",
-            "icon": "simple-icons:docker",
+            "icon": "devicon:docker",
             "style": {
               "color": "#2496ED"
             }
           },
           {
             "skillName": "Linux",
-            "icon": "simple-icons:linux",
+            "icon": "flat-color-icons:linux",
             "style": {
               "color": "#FCC624"
             }
           },
           {
-            "skillName": "LaTeX",
-            "icon": "simple-icons:latex",
+            "skillName": "Android",
+            "icon": "simple-icons:android",
             "style": {
-              "color": "#008080"
+              "color": "#3DDC84"
             }
           },
           {
-            "skillName": "C",
-            "icon": "simple-icons:c",
+            "skillName": "Google Cloud Platform",
+            "icon": "devicon:googlecloud",
             "style": {
-              "color": "#A8B9CC"
+              "color": "#4285F4"
+            }
+          },
+          {
+            "skillName": "Jenkins",
+            "icon": "devicon:jenkins",
+            "style": {
+              "color": "#D24939"
+            }
+          },
+          {
+            "skillName": "GitHub Actions",
+            "icon": "devicon:githubactions",
+            "style": {
+              "color": "#2088FF"
             }
           },
           {
             "skillName": "PostgreSQL",
-            "icon": "simple-icons:postgresql",
+            "icon": "devicon:postgresql",
             "style": {
               "color": "#336791"
             }
           },
           {
             "skillName": "MongoDB",
-            "icon": "simple-icons:mongodb",
+            "icon": "devicon:mongodb",
             "style": {
               "color": "#47A248"
             }
           },
           {
-            "skillName": "Google Cloud Platform",
-            "icon": "simple-icons:googlecloud",
-            "style": {
-              "color": "#4285F4"
-            }
-          },
-          {
             "skillName": "Elasticsearch",
-            "icon": "simple-icons:elasticsearch",
+            "icon": "devicon:elasticsearch",
             "style": {
               "color": "#005571"
             }
