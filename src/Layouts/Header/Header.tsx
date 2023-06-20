@@ -20,9 +20,9 @@ export default function Header() {
             </label>
             <ul className="menu">
                 <li><MyNavLink to={WebUiUris.HOME} text={"Home"}/></li>
-                <li><MyNavLink to={WebUiUris.EDUCATION} text={"Education"}/></li>
-                <li><MyNavLink to={WebUiUris.EXPERIENCE} text={"Experience"}/></li>
-                <li><MyNavLink to={WebUiUris.PROJECTS} text={"Projects"}/></li>
+                <li><MyNavLink to={WebUiUris.EDUCATION} text={data.education.title}/></li>
+                <li><MyNavLink to={WebUiUris.EXPERIENCE} text={data.experience.title}/></li>
+                <li><MyNavLink to={WebUiUris.PROJECTS} text={data.projects.title}/></li>
                 <li><MyNavLink to={WebUiUris.ABOUT} text="About Me"/></li>
             </ul>
         </header>

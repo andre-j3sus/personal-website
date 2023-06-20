@@ -259,7 +259,7 @@
   "education": {
     "title": "Education",
     "subtitle": "Qualification and Certifications",
-    "description": "I'm currently studying Computer Science and Engineering at ISEL, Lisbon.",
+    "description": "Here's my educational background. I am currently pursuing my BSc. in Computer Science and Engineering from Instituto Superior de Engenharia de Lisboa.",
     "headerImagePath": "learning-bro.svg",
     "degrees": [
       {
@@ -279,7 +279,7 @@
   "experience": {
     "title": "Experience",
     "subtitle": "Work, Internship and Volunteership",
-    "description": "",
+    "description": "Here's my work experience so far. I am currently working as a Monitor at ISEL.",
     "headerImagePath": "signing-a-contract-bro.svg",
     "experiences": [
       {
@@ -317,30 +317,22 @@
     ]
   },
   "projects": {
-    "title": "Projects",
-    "description": "My projects make use of vast variety of latest technology tools. My best experience is to create Web Applications and deploy them to web services. Below are some of my projects, to see more projects visit my github.",
-    "avatar_image_path": "projects_image.svg",
+    "title": "Portfolio",
+    "subtitle": "Projects, Publications and Research Papers",
+    "description": "My projects make use of vast variety of latest technology tools. My best experience is to create Web Applications and deploy them to web services. Here's a list of my favorite projects I have worked on.",
+    "headerImagePath": "timeline-bro.svg",
     "projects": [
       {
-        "title": "Project 1",
-        "subtitle": "Project 1",
-        "description": "Project 1",
-        "project_url": ""
+        "title": "PHYLOViZ Web Platform",
+        "subtitle": "A Modular and Web-Based Tool for Phylogenetic Analysis",
+        "description": "PHYLOViZ Web Platform is a web platform, developed in the context of the PHYLOViZ initiative, that allows users to access and perform phylogenetic analyses from anywhere with an internet connection, without requiring installation of software or access to HPC resources. It's modular, making it maintainable and extensible. Supports large scale analyses by relying on a workflow system that enables the distribution of parallel computations on cloud and HPC environments.",
+        "position": "Developer",
+        "url": "https://github.com/phyloviz/phyloviz-web-platform",
+        "logoPath": "phyloviz_logo.png",
+        "duration": "2023 - PRESENT"
       }
-    ]
-  },
-  "publications": {
-    "title": "Publications",
-    "subtitle": "My Research Papers",
-    "description": "",
-    "avatar_image_path": "publications_image.svg",
+    ],
     "publications": [
-      {
-        "title": "Publication title",
-        "subtitle": "Publication subtitle",
-        "description": "Publication description",
-        "publication_url": ""
-      }
     ]
   }
 }
