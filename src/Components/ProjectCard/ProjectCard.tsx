@@ -1,12 +1,14 @@
 import React from "react";
 import "./ProjectCard.css";
+import "../Skills/Skills.css";
 import {Fade, JackInTheBox} from "react-awesome-reveal";
-import {Button} from "@mui/material";
+import {Button, Tooltip} from "@mui/material";
+import {Icon} from "@iconify/react";
 
 function ProjectCard({project}) {
     return (
         <Fade delay={0.5}>
-            <div className="degree-card">
+            <div className="project-card">
                 {project.logoPath && (
                     <JackInTheBox delay={0.5} triggerOnce>
                         <div className="card-img">
@@ -32,13 +34,14 @@ function ProjectCard({project}) {
                                 {project.title}
                             </h2>
                             <h3 className="card-subtitle">
-                                {project.subtitle}
+                                {project.position}
                             </h3>
                         </div>
                         <div className="body-header-duration">
                             <h3 className="duration">
                                 {project.duration}
                             </h3>
+
                             {project.url && (
                                 <Button
                                     className="duration"
@@ -52,8 +55,23 @@ function ProjectCard({project}) {
                             )}
                         </div>
                     </div>
-                    <div className="body-content">
-                        <p>
+                    <div className="project-body-content">
+                        <div style={{
+                            height: "60px"
+                        }}>
+                            <ul className="dev-icons">
+                                {project.techStack.map((skill) => {
+                                    return (
+                                        <Tooltip title={skill.skillName} placement="top" key={skill.skillName}>
+                                            <li className="software-skill-inline">
+                                                <Icon icon={skill.icon} style={skill.style}/>
+                                            </li>
+                                        </Tooltip>
+                                    );
+                                })}
+                            </ul>
+                        </div>
+                        <p className="project-content-list">
                             {project.description}
                         </p>
                     </div>

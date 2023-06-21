@@ -1,7 +1,6 @@
-.degree-card {
+.experience-card {
     display: flex;
     width: 100%;
-    height: 100%;
     justify-content: center;
     align-items: center;
 }
@@ -19,7 +18,9 @@
 }
 
 .card-img {
-    border-radius: 100%;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
     padding: 10px;
     border: 1px solid #d9dbdf;
     background: transparent;
@@ -36,12 +37,17 @@
 }
 
 .body-header-title {
-    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
     width: 80%;
 }
 
 .body-header-duration {
     width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
 
 .duration {
@@ -55,8 +61,8 @@
     max-width: inherit;
     border-radius: 0 0 7px 7px;
     padding: 10px;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
 }
 
 .content-list {
@@ -75,7 +81,7 @@
 }
 
 @media (max-width: 768px) {
-    .degree-card {
+    .experience-card {
         flex-direction: column;
     }
 

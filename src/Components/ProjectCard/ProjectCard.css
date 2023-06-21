@@ -1,4 +1,4 @@
-.degree-card {
+.project-card {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -37,12 +37,17 @@
 }
 
 .body-header-title {
-    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
     width: 80%;
 }
 
 .body-header-duration {
     width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
 
 .duration {
@@ -52,18 +57,21 @@
     float: right;
 }
 
-.body-content {
+.project-body-content {
+    display: flex;
+    flex-direction: column;
     max-width: inherit;
     border-radius: 0 0 7px 7px;
-    padding: 10px;
+    padding: 0;
     justify-content: center;
     align-items: center;
 }
 
-.content-list {
+.project-content-list {
     padding-left: 10px;
     padding-right: 10px;
     font-family: "Google Sans Regular", sans-serif;
+    text-align: justify;
 }
 
 .card-body {
@@ -76,7 +84,7 @@
 }
 
 @media (max-width: 768px) {
-    .degree-card {
+    .project-card {
         flex-direction: column;
     }
 

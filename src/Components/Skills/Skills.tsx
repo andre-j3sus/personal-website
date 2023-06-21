@@ -55,13 +55,13 @@ export default function Skills() {
     );
 }
 
-interface SoftwareSkill {
+export interface SoftwareSkill {
     skillName: string;
     icon: string;
     style: object;
 }
 
-interface SoftwareSkillsProps {
+export interface SoftwareSkillsProps {
     softwareSkills: SoftwareSkill[];
 }
 
@@ -70,7 +70,7 @@ interface SoftwareSkillsProps {
  *
  * @param softwareSkills Software skills.
  */
-function SoftwareSkills({softwareSkills}: SoftwareSkillsProps) {
+export function SoftwareSkills({softwareSkills}: SoftwareSkillsProps) {
     return (
         <div>
             <div className="software-skills-main-div">

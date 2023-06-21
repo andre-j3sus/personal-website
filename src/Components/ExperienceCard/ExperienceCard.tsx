@@ -6,7 +6,7 @@ import {Button} from "@mui/material";
 function ExperienceCard({experience}) {
     return (
         <Fade delay={0.5}>
-            <div className="degree-card">
+            <div className="experience-card">
                 {experience.company.logoPath && (
                     <JackInTheBox delay={0.5} triggerOnce>
                         <div className="card-img">
@@ -32,7 +32,7 @@ function ExperienceCard({experience}) {
                                 {experience.title}
                             </h2>
                             <h3 className="card-subtitle">
-                                {experience.company.name}
+                                <i className="fas fa-map-marker-alt"/> {experience.company.name}
                             </h3>
                         </div>
                         <div className="body-header-duration">

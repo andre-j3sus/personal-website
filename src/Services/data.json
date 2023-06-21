@@ -341,12 +341,12 @@
     "icon": "fas fa-graduation-cap",
     "degrees": [
       {
-        "title": "Instituto Superior de Engenharia de Lisboa",
-        "subtitle": "BSc. in Computer Science and Engineering",
+        "title": "BSc. in Computer Science and Engineering",
+        "subtitle": "Instituto Superior de Engenharia de Lisboa",
         "logoPath": "isel_logo.png",
         "duration": "2020 - 2023",
         "descriptions": [
-          "⚡ I have studied basic software engineering subjects like Programming, Algorithms and Data Structures, OOP, Web Development, Databases, Computer Networks, Operating Systems, etc.",
+          "⚡ I have studied basic software engineering concepts of Computer Science, such as Algorithms and Data Structures, Object-Oriented Programming, Software Engineering, Databases, Computer Networks, Operating Systems, Distributed Systems, Computer Netorks, among others.",
           "⚡ Apart from this, I were the student representative between 2022 and 2023, where I represented the students of my degree in the pedagogical council of the school.",
           "⚡ I received two merit scholarships for my academic excellence, one in 2020 and another one in 2022."
         ],
@@ -409,10 +409,109 @@
         "position": "Developer",
         "url": "https://github.com/phyloviz/phyloviz-web-platform",
         "logoPath": "phyloviz_logo.png",
-        "duration": "2023 - PRESENT"
+        "duration": "2023 - PRESENT",
+        "techStack": [
+          {
+            "skillName": "TypeScript",
+            "icon": "devicon:typescript",
+            "style": {
+              "color": "#007ACC",
+              "fontSize": "32px"
+            }
+          },
+          {
+            "skillName": "React",
+            "icon": "devicon:react",
+            "style": {
+              "color": "#61DAFB",
+              "fontSize": "32px"
+            }
+          },
+          {
+            "skillName": "Java",
+            "icon": "devicon:java",
+            "style": {
+              "color": "#007396",
+              "fontSize": "32px"
+            }
+          },
+          {
+            "skillName": "Spring",
+            "icon": "devicon:spring",
+            "style": {
+              "color": "#6DB33F",
+              "fontSize": "32px"
+            }
+          },
+          {
+            "skillName": "Docker",
+            "icon": "devicon:docker",
+            "style": {
+              "color": "#2496ED",
+              "fontSize": "32px"
+            }
+          },
+          {
+            "skillName": "MongoDB",
+            "icon": "devicon:mongodb",
+            "style": {
+              "color": "#47A248",
+              "fontSize": "32px"
+            }
+          }
+        ]
       }
     ],
     "publications": [
     ]
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Get to know me",
+    "description": "I am a Computer Science and Engineering student at Instituto Superior de Engenharia de Lisboa. I am passionate about software development and I am always looking for new challenges and opportunities to learn and grow.",
+    "headerImagePath": "andre-jesus.jpg",
+    "icon": "fas fa-user",
+    "hobbies": {
+      "title": "Hobbies",
+      "description": "Things I love to do",
+      "logoPath": "ecotourism-bro.svg",
+      "hobbies": [
+        {
+          "title": "Reading",
+          "description": "I love reading books. My favorite genre is fantasy!",
+          "icon": "fas fa-book"
+        },
+        {
+          "title": "Music",
+          "description": "I love listening to music, especially rock!",
+          "icon": "fas fa-music"
+        },
+        {
+          "title": "Movies and Series",
+          "description": "I love watching movies and series in my free time.",
+          "icon": "fas fa-film"
+        },
+        {
+          "title": "Gym",
+          "description": "I love going to the gym and working out. I also did swimming, field hockey and badminton.",
+          "icon": "fas fa-dumbbell"
+        },
+        {
+          "title": "Travelling",
+          "description": "I love travelling and getting to know new places and cultures.",
+          "icon": "fas fa-plane"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact Me",
+      "description": "Feel free to contact me for any professional queries",
+      "logoPath": "mention-bro.svg",
+      "icon": "fas fa-envelope",
+      "email": "andre.jesus.pilar@gmail.com",
+      "phone": "+351 930 533 735",
+      "address": "Lisbon, Portugal",
+      "addressLink": "https://www.google.com/maps/place/Lisbon/data=!4m2!3m1!1s0xd19331a61e4f33b:0x400ebbde49036d0?sa=X&ved=2ahUKEwjQ9tWGx9T_AhWsVqQEHZaaDj4Q8gF6BAgQEAI"
+    }
   }
 }

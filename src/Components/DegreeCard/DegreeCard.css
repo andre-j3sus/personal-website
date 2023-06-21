@@ -37,12 +37,17 @@
 }
 
 .body-header-title {
-    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
     width: 80%;
 }
 
 .body-header-duration {
     width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
 
 .duration {
@@ -56,8 +61,8 @@
     max-width: inherit;
     border-radius: 0 0 7px 7px;
     padding: 10px;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
 }
 
 .content-list {

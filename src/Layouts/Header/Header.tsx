@@ -42,7 +42,11 @@ export default function Header() {
                         text={data.portfolio.title}
                         icon={data.portfolio.icon}
                     /></li>
-                    {/*<li><MyNavLink to={WebUiUris.ABOUT} text="About Me" icon={"fas fa-user"}/></li>*/}
+                    <li><MyNavLink
+                        to={WebUiUris.ABOUT}
+                        text={data.about.title}
+                        icon={data.about.icon}
+                    /></li>
                 </ul>
             </header>
         </Fade>

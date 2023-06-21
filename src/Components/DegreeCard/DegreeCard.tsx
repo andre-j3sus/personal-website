@@ -32,7 +32,7 @@ function DegreeCard({degree}) {
                                 {degree.title}
                             </h2>
                             <h3 className="card-subtitle">
-                                {degree.subtitle}
+                                <i className="fas fa-map-marker-alt"/> {degree.subtitle}
                             </h3>
                         </div>
                         <div className="body-header-duration">
