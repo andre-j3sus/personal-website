@@ -6,7 +6,7 @@
   "logoName": "Andre Jesus",
   "homeImagePath": "website-creator-bro.svg",
   "repository": "https://github.com/andre-j3sus/andre-j3sus-website",
-  "resume": "https://www.canva.com/design/DAFUaHsRNDo/OUWh8boNosWQ3YeIp0tI6A/view?utm_content=DAFUaHsRNDo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
+  "resume": "https://www.canva.com/design/DAFqHQqqaGk/Q2N2Mi5I6JUUgpeB4ugMaw/view?utm_content=DAFqHQqqaGk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
   "github": "https://github.com/andre-j3sus",
   "contacts": {
     "title": "Contact Me",
@@ -14,40 +14,23 @@
     "description": "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with React, Node, Express, Spring, Android, Kotlin, Python, Machine Learning and Opensource Development.",
     "data": [
       {
-        "name": "Github",
-        "url": "https://github.com/andre-j3sus",
-        "fontAwesomeIcon": "fa-brands fa-github fa-2xl",
-        "backgroundColor": "#181717"
-      },
-      {
         "name": "LinkedIn",
         "url": "https://www.linkedin.com/in/andre-j3sus",
         "fontAwesomeIcon": "fa-brands fa-linkedin fa-2xl",
         "backgroundColor": "#0077B5"
       },
       {
-        "name": "YouTube",
-        "url": "https://www.youtube.com/@andre-j3sus",
-        "fontAwesomeIcon": "fa-brands fa-youtube fa-2xl",
-        "backgroundColor": "#FF0000"
+        "name": "Github",
+        "url": "https://github.com/andre-j3sus",
+        "fontAwesomeIcon": "fa-brands fa-github fa-2xl",
+        "backgroundColor": "#181717"
       },
+      
       {
-        "name": "Gmail",
-        "url": "mailto:andre.jesus.pilar@gmail.com",
-        "fontAwesomeIcon": "fa-brands fa-google fa-2xl",
-        "backgroundColor": "#D14836"
-      },
-      {
-        "name": "Twitter",
-        "url": "https://twitter.com/andre_j3sus",
-        "fontAwesomeIcon": "fa-brands fa-twitter fa-2xl",
-        "backgroundColor": "#1DA1F2"
-      },
-      {
-        "name": "Instagram",
-        "url": "https://www.instagram.com/andre.j3sus",
-        "fontAwesomeIcon": "fa-brands fa-instagram fa-2xl",
-        "backgroundColor": "#E4405F"
+        "name": "ORCID",
+        "url": "https://orcid.org/0009-0007-8693-7054",
+        "fontAwesomeIcon": "fa-brands fa-orcid fa-2xl",
+        "backgroundColor": "#A6CE39"
       },
       {
         "name": "Stack Overflow",
@@ -56,16 +39,40 @@
         "backgroundColor": "#F48024"
       },
       {
-        "name": "Goodreads",
-        "url": "https://www.goodreads.com/user/show/108854374-andr-jesus",
-        "fontAwesomeIcon": "fa-brands fa-goodreads fa-2xl",
-        "backgroundColor": "#553B08"
+        "name": "Gmail",
+        "url": "mailto:andre.jesus.pilar@gmail.com",
+        "fontAwesomeIcon": "fa-brands fa-google fa-2xl",
+        "backgroundColor": "#D14836"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/@andre-j3sus",
+        "fontAwesomeIcon": "fa-brands fa-youtube fa-2xl",
+        "backgroundColor": "#FF0000"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/andre.j3sus",
+        "fontAwesomeIcon": "fa-brands fa-instagram fa-2xl",
+        "backgroundColor": "#E4405F"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/andre_j3sus",
+        "fontAwesomeIcon": "fa-brands fa-twitter fa-2xl",
+        "backgroundColor": "#1DA1F2"
       },
       {
         "name": "Spotify",
         "url": "https://open.spotify.com/user/andré.jesus",
         "fontAwesomeIcon": "fa-brands fa-spotify fa-2xl",
         "backgroundColor": "#1ED760"
+      },
+      {
+        "name": "Goodreads",
+        "url": "https://www.goodreads.com/user/show/108854374-andr-jesus",
+        "fontAwesomeIcon": "fa-brands fa-goodreads fa-2xl",
+        "backgroundColor": "#553B08"
       },
       {
         "name": "TV Time",
@@ -76,7 +83,7 @@
     ]
   },
   "seo": {
-    "title": "André Computer",
+    "title": "André Jesus",
     "description": "Computer Science & Engineering Student",
     "og": {
       "title": "André Jesus",
@@ -341,8 +348,19 @@
     "icon": "fas fa-graduation-cap",
     "degrees": [
       {
-        "title": "BSc. in Computer Science and Engineering",
-        "subtitle": "Instituto Superior de Engenharia de Lisboa",
+        "title": "Master of Science - MSc. in Computer Science and Engineering",
+        "subtitle": "Instituto Superior Técnico - Universidade de Lisboa",
+        "logoPath": "IST_A_RGB_POS.png",
+        "duration": "2023 - 2025",
+        "descriptions": [
+          "⚡ My specialization is Distributed Systems.",
+          "⚡ I am also focusing on other areas, such as Artificial Intelligence, Intelligent Robotics and Cyber-Security."
+        ],
+        "url": "https://tecnico.ulisboa.pt/en/"
+      },
+      {
+        "title": "Bachelor of Science - BSc. in Computer Science and Engineering",
+        "subtitle": "Instituto Superior de Engenharia de Lisboa - Instituto Politécnico de Lisboa",
         "logoPath": "isel_logo.png",
         "duration": "2020 - 2023",
         "descriptions": [
@@ -387,7 +405,7 @@
           "url": "https://www.apto.pt/",
           "logoPath": "apto_logo.png"
         },
-        "duration": "September 2022 - PRESENT",
+        "duration": "September 2022 - July 2023",
         "location": "Lisbon, Portugal",
         "descriptions": [
           "⚡ Provided personalized academic support and guidance to students in primary and secondary education, helping them achieve their educational goals with confidence."
@@ -468,7 +486,7 @@
   "about": {
     "title": "About Me",
     "subtitle": "Get to know me",
-    "description": "I am a Computer Science and Engineering student at Instituto Superior de Engenharia de Lisboa. I am passionate about software development and I am always looking for new challenges and opportunities to learn and grow.",
+    "description": "I am a Computer Science and Engineering student, BSc (2023), MSc (in progress) at Instituto Superior Técnico, in Lisbon, Portugal. My academic journey reflects my deep passion for technology and software development. My research interests encompass artificial intelligence, data science, web development, and cloud technologies. Beyond my academic pursuits, I find joy in travel, reading, indulging in rock music, and staying active through workouts.",
     "headerImagePath": "andre-jesus.jpg",
     "icon": "fas fa-user",
     "hobbies": {
