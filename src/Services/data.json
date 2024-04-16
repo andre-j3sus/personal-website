@@ -1,6 +1,6 @@
 {
   "name": "André Jesus",
-  "position": "Computer Science & Engineering Student",
+  "position": "Software Engineer Intern | Computer Science & Engineering Student",
   "url": "https://andre-j3sus.github.io",
   "headline": "Hey there 👋, welcome to my website!",
   "logoName": "Andre Jesus",
@@ -25,7 +25,6 @@
         "fontAwesomeIcon": "fa-brands fa-github fa-2xl",
         "backgroundColor": "#181717"
       },
-      
       {
         "name": "ORCID",
         "url": "https://orcid.org/0009-0007-8693-7054",
@@ -94,12 +93,12 @@
   "skills": {
     "data": [
       {
-        "title": "Programming Languages & Tools",
+        "title": "Programming Languages and DevOps",
         "imagePath": "code-typing-bro.svg",
         "skills": [
           "⚡ Well-versed in programming paradigms, enabling flexible problem-solving approaches.",
           "⚡ Experience in developing software solutions using diverse programming languages.",
-          "⚡ Proficiency in Git and GitHub for smooth collaboration and code management.",
+          "⚡ Proficiency in Git, GitHub, and DevOps tools for seamless collaboration, CI/CD, and code management.",
           "⚡ Well-versed in LaTeX for creating professional and well-formatted documents."
         ],
         "softwareSkills": [
@@ -118,10 +117,17 @@
             }
           },
           {
-            "skillName": "Python",
-            "icon": "devicon:python",
+            "skillName": "JavaScript",
+            "icon": "devicon:javascript",
             "style": {
-              "color": "#3776AB"
+              "color": "#F7DF1E"
+            }
+          },
+          {
+            "skillName": "TypeScript",
+            "icon": "devicon:typescript",
+            "style": {
+              "color": "#3178C6"
             }
           },
           {
@@ -132,10 +138,17 @@
             }
           },
           {
-            "skillName": "Prolog",
-            "icon": "devicon:prolog",
+            "skillName": "C#",
+            "icon": "devicon:csharp",
             "style": {
-              "color": "#6A2C70"
+              "color": "#239120"
+            }
+          },
+          {
+            "skillName": "Python",
+            "icon": "devicon:python",
+            "style": {
+              "color": "#3776AB"
             }
           },
           {
@@ -150,6 +163,20 @@
             "icon": "devicon:github",
             "style": {
               "color": "#181717"
+            }
+          },
+          {
+            "skillName": "Jenkins",
+            "icon": "devicon:jenkins",
+            "style": {
+              "color": "#D24939"
+            }
+          },
+          {
+            "skillName": "GitHub Actions",
+            "icon": "devicon:githubactions",
+            "style": {
+              "color": "#2088FF"
             }
           },
           {
@@ -182,20 +209,6 @@
             "icon": "devicon-css3",
             "style": {
               "color": "#1572B6"
-            }
-          },
-          {
-            "skillName": "JavaScript",
-            "icon": "devicon-javascript",
-            "style": {
-              "color": "#F7DF1E"
-            }
-          },
-          {
-            "skillName": "TypeScript",
-            "icon": "devicon-typescript",
-            "style": {
-              "color": "#3178C6"
             }
           },
           {
@@ -264,7 +277,7 @@
         ]
       },
       {
-        "title": "Cloud Infra & Databases",
+        "title": "Cloud Infra, Databases & OS",
         "imagePath": "server-bro.svg",
         "skills": [
           "⚡ Proficiency in Docker for efficient application deployment through containerization.",
@@ -299,20 +312,6 @@
             "icon": "devicon:googlecloud",
             "style": {
               "color": "#4285F4"
-            }
-          },
-          {
-            "skillName": "Jenkins",
-            "icon": "devicon:jenkins",
-            "style": {
-              "color": "#D24939"
-            }
-          },
-          {
-            "skillName": "GitHub Actions",
-            "icon": "devicon:githubactions",
-            "style": {
-              "color": "#2088FF"
             }
           },
           {
@@ -353,8 +352,8 @@
         "logoPath": "IST_A_RGB_POS.png",
         "duration": "2023 - 2025",
         "descriptions": [
-          "⚡ My specialization is Distributed Systems.",
-          "⚡ I am also focusing on other areas, such as Artificial Intelligence, Intelligent Robotics and Cyber-Security."
+          "⚡ Specializations: Distributed Systems ☁️ and Cyber-Security 🔒",
+          "⚡ Additional Focus Areas: Deep Learning 🧠 and Data Science 📊"
         ],
         "url": "https://tecnico.ulisboa.pt/en/"
       },
@@ -375,12 +374,26 @@
   "experience": {
     "title": "Experience",
     "subtitle": "Work, Internship and Volunteership",
-    "description": "Here's my work experience so far. I am currently working as a Monitor at ISEL.",
+    "description": "Here's my work experience so far.",
     "headerImagePath": "signing-a-contract-bro.svg",
     "icon": "fas fa-briefcase",
     "experiences": [
       {
-        "title": "Monitor",
+        "title": "Software Engineer Intern",
+        "company": {
+          "name": "Cloudflare, Inc.",
+          "conglomerate": "Cloudflare",
+          "url": "https://www.cloudflare.com/",
+          "logoPath": "cloudflare_logo.png"
+        },
+        "duration": "May 2024 - PRESENT",
+        "location": "Lisbon, Portugal",
+        "descriptions": [
+          "⚡ Member of the Cloudflare Radar team, which is responsible for the development of the Cloudflare Radar product, a real-time security and performance monitoring solution for web applications."
+        ]
+      },
+      {
+        "title": "Teaching Assistant",
         "company": {
           "name": "Instituto Superior de Engenharia de Lisboa",
           "conglomerate": "Instituto Politécnico de Lisboa",
@@ -390,25 +403,11 @@
         "duration": "November 2022 - PRESENT",
         "location": "Lisbon, Portugal",
         "descriptions": [
-          "⚡ Support for the functioning of the Introduction to Web Programming and Software Laboratory curricular units of the 3rd and 4th semesters of the BSc in Computer Science and Computer Engineering.",
+          "⚡ Support for the functioning of the Algorithms and Data Structures, Introduction to Web Programming and Software Laboratory curricular units of the 2nd, 3rd and 4th semesters of the BSc in Computer Science and Computer Engineering.",
           "⚡ Support to practical lessons.",
           "⚡ Clarification of doubts to students.",
           "⚡ Maintenance of software installed on the server used in Software Laboratory curricular unit projects.",
           "⚡ Vigilance and correction of the moments of evaluation of the curricular units."
-        ]
-      },
-      {
-        "title": "Tutor",
-        "company": {
-          "name": "Apto — Apoio Pedagógico Total, Lda.",
-          "conglomerate": null,
-          "url": "https://www.apto.pt/",
-          "logoPath": "apto_logo.png"
-        },
-        "duration": "September 2022 - July 2023",
-        "location": "Lisbon, Portugal",
-        "descriptions": [
-          "⚡ Provided personalized academic support and guidance to students in primary and secondary education, helping them achieve their educational goals with confidence."
         ]
       }
     ]
@@ -480,13 +479,12 @@
         ]
       }
     ],
-    "publications": [
-    ]
+    "publications": []
   },
   "about": {
     "title": "About Me",
     "subtitle": "Get to know me",
-    "description": "I am a Computer Science and Engineering student, BSc (2023), MSc (in progress) at Instituto Superior Técnico, in Lisbon, Portugal. My academic journey reflects my deep passion for technology and software development. My research interests encompass artificial intelligence, data science, web development, and cloud technologies. Beyond my academic pursuits, I find joy in travel, reading, indulging in rock music, and staying active through workouts.",
+    "description": "I am a Computer Science and Engineering student, BSc (2023), MSc (in progress) at Instituto Superior Técnico, in Lisbon, Portugal. My academic journey reflects my deep passion for technology and software development. My research interests encompass distributed systems, web development, and cloud technologies. Beyond my academic pursuits, I find joy in travel, reading, playing guitar, and staying active through workouts.",
     "headerImagePath": "andre-jesus.jpg",
     "icon": "fas fa-user",
     "hobbies": {
@@ -500,14 +498,9 @@
           "icon": "fas fa-book"
         },
         {
-          "title": "Music",
-          "description": "I love listening to music, especially rock!",
-          "icon": "fas fa-music"
-        },
-        {
-          "title": "Movies and Series",
-          "description": "I love watching movies and series in my free time.",
-          "icon": "fas fa-film"
+          "title": "Guitar",
+          "description": "I love playing the guitar.",
+          "icon": "fas fa-guitar"
         },
         {
           "title": "Gym",
